@@ -1,0 +1,27 @@
+Tutorial-VueJS
+
+# install vue-cli
+$ npm install --global vue-cli
+# create a new project using the "webpack" template
+$ vue init webpack my-project
+# install dependencies and go!
+$ cd my-project
+$ npm install
+$ npm run dev
+
+Configuração Veux
+
+src/store/store.js
+
+...................................................
+
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+Vue.use(Vuex)
+
+export default new Vuex.store({})
+
+....................................................
+
+
